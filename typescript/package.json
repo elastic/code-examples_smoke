@@ -1,0 +1,25 @@
+{
+  "name": "@elastic/code-examples_smoke",
+  "homepage": "https://github.com/elastic/code-examples_smoke",
+  "author": "Elastic",
+  "version": "0.0.1",
+  "license": "Apache-2.0",
+  "description": "Smoke test ",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elastic/code-examples_smoke.git"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "scripts": {
+    "clean": "rimraf lib",
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "typescript": "^3.3.3333"
+  }
+}
